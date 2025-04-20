@@ -29,6 +29,11 @@ github_小四轴/
 │   ├── bmp280/              # 气压传感器驱动
 │   ├── mpu6050/             # 六轴传感器驱动
 │   └── nrf24l01/            # 无线通信模块驱动
+|── pcb/                     # PCB相关文件
+│   ├── gerber/              # Gerber制版文件
+│   ├── source/              # 源设计文件
+│   ├── bom.xlsx             # 元器件清单
+│   └── schematic/           # 原理图
 ├── project/                 # 项目代码
 │   ├── fly/                 # 飞行器控制代码
 │   └── remote/              # 遥控器代码
